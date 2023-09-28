@@ -1,5 +1,11 @@
+import Navbar from "./Navbar";
+
 const App = () => {
-  return <div className="text-2xl underline font-extrabold">Hello World</div>;
+  return (
+    <main>
+      <Navbar />
+    </main>
+  );
 };
 
 export default App;
